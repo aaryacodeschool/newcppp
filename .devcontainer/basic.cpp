@@ -2,21 +2,20 @@
 using namespace std;
 int main()
 {
-int pass1, pass2;
- cout<<"enter pass1:";
- cin>>pass1;
- cout<<"Enter pass2:";
- cin>>pass2;
+int age;
+ cout<<"enter your age:";
+ cin>>age;
+ 
 
- if(pass1==pass2)
+ if(age>5 && age<10)
  {
 
-    cout<<"your passw0rd is same" ;
+    cout<<"you are eligible for pogo";
  }
 
  else{
 
-    cout<<"Ypur passwords are different" ;
+    cout<<"You are not eligible for pogo";
  }
    
 }
