@@ -2,10 +2,26 @@
 using namespace std;
 int main()
 {
-int num1,num2,a;
-    cout<<"num1="<<"num2";
-    cin>>num1>>num2;
-    a=num1+num2;
-    cout<<"a="<<a;
-    return 0;
+int num1,num2,num3;
+ cout<<"num1="<<"num2"<<"num3";
+ cin>>num1>>num2>>num3;
+
+ if(num1>num2 &&  num1>num3)
+ {
+
+    cout<<"num1 is grater" ;
+ }
+
+ else if(num2>num1 && num2>num3)
+ {
+     cout<<"num2 is grater" ;
+
+ }
+
+ else{
+
+
+    cout<<"num3 is grater" ;
+ }
+   
 }
